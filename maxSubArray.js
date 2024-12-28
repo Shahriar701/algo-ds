@@ -28,7 +28,7 @@ testCases.forEach((test) => {
 
 // Basic Implementation (Kadane's Algorithm)
 function maxSubArray(nums) {
-  if (nums.llength === 0) return 0;
+  if (nums.length === 0) return 0;
 
   let currentSum = nums[0];
   let maxSum = nums[0];
